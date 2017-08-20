@@ -25,8 +25,8 @@ getInfo("https://hacker-news.firebaseio.com/v0/topstories.json", function(result
 
 
 					for (var j = 0; j < tabledata.length; j+= 1) {
-						var a = document.createElement('a');
-						a.setAttribute('href',articles[j].link);
+						var a = document.createElement("a");
+						a.setAttribute("href",articles[j].link);
 						a.innerHTML = articles[j].title;
 						tabledata[j].appendChild(a);
 					}
@@ -36,3 +36,10 @@ getInfo("https://hacker-news.firebaseio.com/v0/topstories.json", function(result
 
 	}
 });
+
+
+window.addEventListener('click',function(e){
+  if(e.target.href!==undefined){
+    chrome.tabs.create({url:e.target.href})
+  }
+})
