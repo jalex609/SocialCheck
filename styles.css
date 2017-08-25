@@ -1,94 +1,83 @@
 * {
-  outline: none;
+	outline: none;
 }
 
 body {
-  font-family: "Playfair Display", sans-serif;
-  width: 400px;
-  font-size: 12px;
-  margin: 0;
-  text-align: center;
+	font-family: "Playfair Display", sans-serif;
+	width: 400px;
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
 }
 
 .top {
-  float: left;
-  margin: 0px;
-  background-color: #FF6600;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  width: 95%;
-  height: 30%;
-  padding: 0px 10px;
-  z-index: 1;
+	float: left;
+	margin: 0px;
+	background-color: #FF6600;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	width: 95%;
+	height: 30%;
+	padding: 0px 10px;
+	z-index: 1;
 }
 
 .lite {
-  font-weight: 2px;
-  color: white;
-  padding: 5px;
-  font-size: 15px;
+	font-weight: 2px;
+	color: white;
+	padding: 5px;
+	font-size: 15px;
 }
 
 div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(224, 224, 224);
-  box-shadow: 0px 2px 3.52px 0.48px rgba(0, 0, 0, 0.05);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(224, 224, 224);
+	box-shadow: 0px 2px 3.52px 0.48px rgba(0, 0, 0, 0.05);
 }
 
 div.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
 }
 
 div.tab button {
-  float: left;
-  outline: none;
-  cursor: pointer;
-  padding: 20px 14.3px;
-  transition: 0.3s;
-  font-size: 17px;
+	float: left;
+	outline: none;
+	cursor: pointer;
+	padding: 20px 14.3px;
+	transition: 0.3s;
+	font-size: 17px;
 }
 
 div.tab button:hover {
-  background-color: #ddd;
+	background-color: #ddd;
 }
 
 div.tab button.active {
-  background-color: #ccc;
+	background-color: #ccc;
 }
 
 p {
-  padding: 5px;
+	padding: 5px;
 }
 
 table {
-  width: 100%;
-  padding-top: 1em;
-  border-collapse: collapse;
-}
-
-thead {
-  background-image: -webkit-linear-gradient(left, #5D4157, #A8CABA);
-}
-
-th {
-  width: 300px;
-  height: 20px;
-  color: #fff;
-  text-align: center;
+	width: 100%;
+	padding-top: 1em;
+	border-collapse: collapse;
 }
 
 tr {
-  padding: 10px 20px;
-  display: block;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(224, 224, 224);
-  box-shadow: 0px 4px 4.52px 0.68px rgba(0, 0, 0, 0.05);
+	padding: 10px 20px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(224, 224, 224);
+	box-shadow: 0px 4px 4.52px 0.68px rgba(0, 0, 0, 0.05);
 }
 
 td {
-  width: 50%;
-  text-align: center;
+	width: 50%;
+	text-align: center;
 }
