@@ -50,7 +50,7 @@ div.tab button {
 	font-size: 17px;
 }
 
-div.tab button:hover {
+div.tab button:hover { 
 	background-color: #ddd;
 }
 
